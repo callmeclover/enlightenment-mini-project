@@ -31,6 +31,6 @@ window.onload = (function(e) {
 });
 
 //document.onclick = () => {
-//	document.body.classList.toggle('fadeout')
+//	document.getElementById('display').classList.toggle('fadeout')
 //}
 
