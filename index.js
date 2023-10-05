@@ -4,7 +4,7 @@ function typeWriter(text, n, elem) {
     n++;
     setTimeout(function() {
       typeWriter(text, n, elem)
-    }, 100);
+    }, 25);
   }
 }
 
