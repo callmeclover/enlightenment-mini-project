@@ -1,8 +1,3 @@
-window.onload = () => {
-  document.getElementById('enl').classList.toggle("light")
-  document.body.classList.toggle('fadein')
-}
-
 function typeWriter(text, n, elem) {
   if (n < (text.length)) {
     $('.' + elem).html(text.substring(0, n + 1));
@@ -15,6 +10,9 @@ function typeWriter(text, n, elem) {
 
 window.onload = (function(e) {
   e.stopPropagation();
+  
+  document.getElementById('enl').classList.toggle("light")
+  document.getElementById('display').classList.toggle('fadein')
 
   var text = $('.test').data('text');
   typeWriter(text, 0, 'test');
