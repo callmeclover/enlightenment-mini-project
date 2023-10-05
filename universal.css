@@ -13,7 +13,7 @@ body {
 
 .flexbox {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   font-size: 62px;
 }
 
