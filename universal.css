@@ -8,7 +8,7 @@ body {
   color: #ffddff;
   padding: 1.5px 5px;
   user-select: none;
-  overflow: hidden;
+  overflow: shown;
 }
 
 .flexbox {
