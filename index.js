@@ -28,6 +28,24 @@ window.onload = (function(e) {
     var text = $('.underlinedlinkjl').data('text');
     typeWriter(text, 0, 'underlinedlinkjl');
   }, 5000)
+  if (document.getElementsByClassName('underlinedlinkcp') != undefined) {
+    setTimeout(() => {
+      var text = $('.underlinedlinkcp').data('text');
+      typeWriter(text, 0, 'underlinedlinkcp');
+    }, 5500)
+  }
+  if (document.getElementsByClassName('underlinedlinkjls') != undefined) {
+    setTimeout(() => {
+      var text = $('.underlinedlinkjls').data('text');
+      typeWriter(text, 0, 'underlinedlinkjls');
+    }, 6000)
+  }
+  if (document.getElementsByClassName('underlinedlinkths') != undefined) {
+    setTimeout(() => {
+      var text = $('.underlinedlinkths').data('text');
+      typeWriter(text, 0, 'underlinedlinkths');
+    }, 6500)
+  }
 });
 
 //document.onclick = () => {
